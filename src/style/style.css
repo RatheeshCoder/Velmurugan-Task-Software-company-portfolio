@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "urbane regular";
+  src: url("../font/urbane/Urbane-Medium.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background-color: #121315;
   overflow-x: hidden;
+  font-family: "urbane regular";
 }
 
 .Hero-main {
