@@ -29,7 +29,7 @@ const servicesData = [
     title: 'AI and Data Analytics',
     description: 'AI and data analytics for data-driven decision-making',
   },
-  
+
 ];
 
 export default servicesData;
@@ -42,28 +42,28 @@ import member4 from '../assets/person4.png'
 
 export const TeamData = [
   {
-    id:1,
-    img :member1,
-    name:'Andry Ford',
-    position:'CEO'
+    id: 1,
+    img: member1,
+    name: 'Andry Ford',
+    position: 'CEO'
   },
   {
-    id:2,
-    img :member2,
-    name:'Andry Ford',
-    position:'CEO'
+    id: 2,
+    img: member2,
+    name: 'Andry Ford',
+    position: 'CEO'
   },
   {
-    id:3,
-    img :member3,
-    name:'Andry Ford',
-    position:'CEO'
+    id: 3,
+    img: member3,
+    name: 'Andry Ford',
+    position: 'CEO'
   },
   {
-    id:4,
-    img :member4,
-    name:'Andry Ford',
-    position:'CEO'
+    id: 4,
+    img: member4,
+    name: 'Andry Ford',
+    position: 'CEO'
   },
 ]
 
@@ -112,7 +112,6 @@ export const faqs = [
 ];
 
 
-// data.js
 
 export const testimonialsData = [
   {
@@ -155,4 +154,4 @@ export const testimonialsData = [
 
 
 
- 
+

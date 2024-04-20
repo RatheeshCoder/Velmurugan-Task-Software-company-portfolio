@@ -9,27 +9,25 @@ import "swiper/css/pagination";
 const Slider = ({ testimonials }) => {
   return (
     <Swiper
-    slidesPerView={1}
+      slidesPerView={1}
       spaceBetween={30}
       freeMode={true}
       pagination={{
         clickable: true,
       }}
-      
       breakpoints={{
         500: {
-          slidesPerView:1,
+          slidesPerView: 1,
           spaceBetween: 20,
         },
         768: {
           slidesPerView: 2,
           spaceBetween: 40,
         },
-        1000:{
+        1000: {
           slidesPerView: 3,
           spaceBetween: 40,
         },
-        
       }}
       modules={[FreeMode, Pagination]}
       className="py-10 mySwiper "

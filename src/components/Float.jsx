@@ -21,7 +21,7 @@ export const Float = () => {
         </span>
         <ul>
           <li>
-            <a href="https://twitter.com/SumethWrrn">
+            <a href="#">
               <svg
                 height="18"
                 width="18"
@@ -38,7 +38,7 @@ export const Float = () => {
             </a>
           </li>
           <li>
-            <a href="https://codepen.io/sharpth">
+            <a href="#">
               <svg
                 height="18"
                 width="18"
@@ -55,7 +55,7 @@ export const Float = () => {
             </a>
           </li>
           <li>
-            <a href="https://github.com/SharpTH">
+            <a href="#">
               <svg
                 height="18"
                 width="18"

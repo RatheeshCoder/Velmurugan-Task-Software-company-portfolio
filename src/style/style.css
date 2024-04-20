@@ -6,6 +6,7 @@
 
 body {
   background-color: #121315;
+  overflow-x: hidden;
 }
 
 .Hero-main {
@@ -213,7 +214,7 @@ body {
 }
 .About1 .main .about-content .left p {
   color: #e3e6df;
-  font-size: clamp(0.5rem, 0.3797rem + 0.6015vw, 1rem);
+  font-size: clamp(0.8rem, 0.3797rem + 0.6015vw, 1.5rem);
   font-weight: 500;
   line-height: 1.5;
   font-style: normal;
