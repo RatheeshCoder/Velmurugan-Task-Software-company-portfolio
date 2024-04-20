@@ -2,14 +2,14 @@ import React from 'react';
 
 const CTA = () => {
     return (
-        <section className="relative z-10 overflow-hidden bg-indigo-600 py-16 px-8 mt-40">
+        <section className="relative z-10 overflow-hidden bg-[#8ebbff] py-16 px-8 ">
         <div className="container">
-            <div className="-mx-4 flex flex-wrap items-center">
+            <div className="flex flex-wrap items-center">
                 <div className="w-full px-4 lg:w-1/2">
                     <div className="text-center lg:text-left ">
                         <div className="mb-10 lg:mb-0 ">
-                            <h1 className="mt-0 mb-3 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight md:text-[40px] md:leading-tight text-white">
-                                Start building automated serverless forms
+                            <h1 className="mt-0 mb-3 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight md:text-[40px] md:leading-tight text-[#121315]">
+                            Ready to Transform Your Business? Let's Get Started!
                             </h1>
                             
                         </div>
@@ -18,7 +18,7 @@ const CTA = () => {
                 <div className="w-full px-4 lg:w-1/2">
                     <div className="text-center lg:text-right">
                         <a
-                            className="font-semibold rounded-lg mx-auto inline-flex items-center justify-center bg-white py-4 px-9 hover:bg-opacity-90"
+                            className="inline-flex items-center justify-center py-4 mx-auto font-semibold bg-[#121315] text-[#e3e6df] rounded-lg px-9 hover:bg-opacity-90"
                             href="#">
                             Create Your First Form
                         </a>

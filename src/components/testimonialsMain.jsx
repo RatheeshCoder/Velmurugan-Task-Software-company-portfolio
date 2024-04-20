@@ -4,10 +4,10 @@ import { testimonialsData } from "../Data/WebData";
 
 const SliderTestimonials = () => {
   return (
-    <section id="testimonials" className="bg-slate-50 py-5 sm:py-10">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl md:text-center mt-10 mb-10">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+    <section id="testimonials" className="bg-[#30353b] py-5 sm:py-10">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="max-w-2xl mx-auto mt-10 mb-10 md:text-center">
+          <h2 className="text-3xl tracking-tight font-extrabold font-display text-[#e3e6df] sm:text-4xl">
             What Our Customers Are Saying
           </h2>
         </div>

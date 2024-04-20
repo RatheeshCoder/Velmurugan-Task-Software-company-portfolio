@@ -6,19 +6,15 @@ export const Services = () => {
     <section className="services">
       <div className="title">
         <h1>Our Services</h1>
-        <p>Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam auctor sit ipsum malesuada a, duis volutpat.</p>
+        <p>Empowering Digital Solutions for Today's Challenges. Transforming Ideas into Digital Reality. Innovate, Evolve, and Success</p>
       </div>
 
       <div className="content">
         <div className="left">
-            <h1>Create Better Videos</h1>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo con</p>
-            <a className="learn-more">
-          <span className="circle" aria-hidden="true">
-            <span className="icon arrow"></span>
-          </span>
-          <span className="button-text">Learn More</span>
-        </a>
+            <h1>Unleashing Innovation, Driving Success</h1>
+            <p>Empowering digital success through tailored services. Partner with us for transformative growth.</p>
+            <button class="hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-[#e3e6df] text-2xl">Know More</button>
+
 
         </div>
 

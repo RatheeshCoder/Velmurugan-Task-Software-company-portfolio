@@ -32,26 +32,26 @@ const Slider = ({ testimonials }) => {
         
       }}
       modules={[FreeMode, Pagination]}
-      className="mySwiper py-10 "
+      className="py-10 mySwiper "
     >
       {testimonials.map((testimonial, index) => (
         <SwiperSlide key={index}>
-          <div className="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10">
+          <div className="relative rounded-2xl bg-[#121315] p-6 shadow-xl shadow-[#e3e6df]/10">
             <blockquote className="relative">
-              <p className="text-lg tracking-tight text-slate-900">
+              <p className="text-lg tracking-tight text-[#e3e6df]">
                 {testimonial.quote}
               </p>
             </blockquote>
-            <figcaption className="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+            <figcaption className="relative flex items-center justify-between pt-6 mt-6 border-t border-[#8ebbff]">
               <div>
-                <div className="font-display text-base text-slate-900">
+                <div className="text-base font-display text-[#e3e6df]">
                   {testimonial.name}
                 </div>
               </div>
-              <div className="overflow-hidden rounded-full bg-slate-50">
+              <div className="overflow-hidden rounded-full bg-[#e3e6df]">
                 <img
                   alt=""
-                  className="h-14 w-14 object-cover"
+                  className="object-cover h-14 w-14"
                   src={testimonial.image}
                 />
               </div>

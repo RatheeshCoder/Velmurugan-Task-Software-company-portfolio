@@ -1,5 +1,5 @@
 import React from "react";
-import leftImg from "../assets/About2-left.svg";
+import leftImg from "../assets/About2-left.jpg";
 
 export const About2 = () => {
   return (
@@ -10,20 +10,12 @@ export const About2 = () => {
 
       <div className="right">
         <h3>Know More</h3>
-        <h1>We are The Best SEO Company</h1>
+        <h1>Innovate. Collaborate. Transform.</h1>
         <p>
-          Whether you do a search for “London seo”, “London web or a variety of
-          other highly competitive terms in our industry you will find that we
-          completely dominate our competitors at our own game. Further, you will
-          see we are the top rated firm with 67 reviews on Google giving us 4.8
-          stars.
+        We innovate to transform businesses. With our collaborative approach, we empower digital futures by delivering tailored solutions that drive growth and success. Join us in shaping tomorrow's technology landscape.
         </p>
-        <a className="learn-more">
-          <span className="circle" aria-hidden="true">
-            <span className="icon arrow"></span>
-          </span>
-          <span className="button-text">Learn More</span>
-        </a>
+        <button class="hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-[#e3e6df] text-2xl">Explore Now</button>
+
       </div>
     </section>
   );

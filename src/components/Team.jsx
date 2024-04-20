@@ -5,8 +5,8 @@ export const Team = () => {
   return (
     <section className="Team">
       <div className="title">
-        <h1>Our Team</h1>
-        <p>Convallis turpis erat tempus, viverra aliquet. Nullam viverra nam auctor sit ipsum malesuada a, duis volutpat.</p>
+        <h1>Meet Our Expert Team</h1>
+        <p>Our success stems from a passionate and dedicated team committed to delivering exceptional results.</p>
       </div>
 
       <div className="card-container">

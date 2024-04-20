@@ -1,33 +1,33 @@
-import Serviesimg1 from '../assets/servies1.svg'
-import Serviesimg2 from '../assets/servies2.svg'
-import Serviesimg3 from '../assets/servies3.svg'
-import Serviesimg4 from '../assets/servies4.svg'
+import Serviesimg1 from '../assets/Design.png'
+import Serviesimg2 from '../assets/mobile-development.png'
+import Serviesimg3 from '../assets/content-management-system.png'
+import Serviesimg4 from '../assets/Data-Analytics.png'
 
 
 const servicesData = [
   {
     id: 1,
     image: Serviesimg1,
-    title: 'Service 1',
-    description: 'Description for Service 1',
+    title: 'Web Development and Design',
+    description: 'Custom web development for engaging user experiences',
   },
   {
     id: 2,
     image: Serviesimg2,
-    title: 'Service 2',
-    description: 'Description for Service 2',
+    title: 'Mobile App Development',
+    description: 'Intuitive mobile apps for enhanced brand visibility',
   },
   {
     id: 3,
     image: Serviesimg3,
-    title: 'Service 2',
-    description: 'Description for Service 2',
+    title: 'Enterprise Software Solutions',
+    description: 'Scalable software solutions for streamlined operations',
   },
   {
     id: 4,
     image: Serviesimg4,
-    title: 'Service 2',
-    description: 'Description for Service 2',
+    title: 'AI and Data Analytics',
+    description: 'AI and data analytics for data-driven decision-making',
   },
   
 ];

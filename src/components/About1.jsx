@@ -11,27 +11,27 @@ export const About1 = () => {
 
 <div className="about-content">
         <div className="left">
-            <h1>Committed to a sustainable future</h1>
-            <p>As a pioneering force in the green energy sector, we've been at the forefront of the transition to clean, renewable power sources. Our mission is simple yet profound: to create a world where energy is not only abundant but also environmentally responsible. We believe that by harnessing the power of nature, we can power the world and protect it simultaneously.</p>
+            <h1>Building Tomorrow's Technology Today</h1>
+            <p> We're dedicated to innovation and excellence. From our start, we've led digital transformation, helping businesses thrive. With expert teams, we deliver solutions that fuel growth and efficiency. <br /> <br /> We believe in collaboration, tailoring solutions to exceed expectations. Join us in shaping technology's future. Together, we'll create possibilities and lasting impact.</p>
         </div>
 
         <div className="right">
             <ul>
                 <li>
-                    <h1>5,000 Mwh</h1>
-                    <p>Renewable Energy Generated</p>
+                    <h1>2000+</h1>
+                    <p>Top Innovator in Technology</p>
                 </li>
                 <li>
-                <h1>5,000 Mwh</h1>
-                    <p>Renewable Energy Generated</p>
+                <h1>800+</h1>
+                    <p>Partnerships</p>
                 </li>
                 <li>
-                <h1>5,000 Mwh</h1>
-                    <p>Renewable Energy Generated</p>
+                <h1>500+</h1>
+                    <p>Innovative Projects</p>
                 </li>
                 <li>
-                <h1>5,000 Mwh</h1>
-                    <p>Renewable Energy Generated</p>
+                <h1>600+</h1>
+                    <p>Employee Recognition</p>
                 </li>
             </ul>
         </div>

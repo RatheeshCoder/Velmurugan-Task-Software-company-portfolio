@@ -6,23 +6,21 @@ export const Hero = () => {
   return (
     <section className="Hero-main">
       <div className="left">
-        <div className="top">
-          <h3>DESIGN INSPIRATION</h3>
-          <h1>Convallis turpis erat tempus, viverra aliquet. </h1>
-          <a className="learn-more">
-            <span className="circle" aria-hidden="true">
-              <span className="icon arrow"></span>
-            </span>
-            <span className="button-text">Learn More</span>
-          </a>
+        <div className="top" data-aos="zoom-out-right">
+          <h3>
+          Your Trusted  <span>Partner</span>
+          </h3>
+          <h1>Empowering businesses with innovative solutions </h1>
+          <button class="hover:brightness-110 hover:animate-pulse font-bold py-3 px-6 rounded-full bg-indigo-500 shadow-lg shadow-indigo-500/50 text-[#e3e6df] text-2xl">Explore Our Services</button>
+
         </div>
 
         <div className="bottom">
-          <p>I feel so much less stressed ❤️ as I now know by the book.”</p>
+          <p>"Discover the peace of mind ❤️ that comes from doing it 'by the code'."</p>
           <div className="ceo">
             <img src={CEO} alt="CEO" />
             <h3>
-              Andry Ford<span></span>CEO at Whatever
+              Andry Ford<span>CEO at Whatever</span>
             </h3>
           </div>
         </div>

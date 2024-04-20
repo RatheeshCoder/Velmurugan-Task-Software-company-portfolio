@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 
-$primary-text: #000;
-$secondary-text: #000;
+$primary-text: #e3e6df;
+$secondary-text: #8ebbff;
 
-$primary-color: #FFF7ED;
-$secondary-color: #0E6FFF;
+$primary-color: #121315;
+$secondary-color: #30353b;
 
 
-
+body {
+    background-color: $primary-color;
+}
 
 .Hero-main {
     width: 100%;
@@ -35,16 +37,22 @@ $secondary-color: #0E6FFF;
             margin: 2rem 0;
 
             h3 {
-                color: $secondary-text;
+                color: $primary-text;
+                text-transform: uppercase;
                 font-size: clamp(1rem, 0.7594rem + 1.203vw, 2rem);
                 font-weight: bolder;
                 padding: 10px 0;
                 font-style: normal;
                 line-height: 1.5;
+
+                span {
+                    color: $secondary-text;
+                }
             }
 
             h1 {
-                color: $secondary-text;
+                color: $primary-text;
+
                 font-size: clamp(1.5rem, 1.1391rem + 1.8045vw, 3rem);
                 font-weight: bolder;
                 padding: 10px 0;
@@ -54,97 +62,7 @@ $secondary-color: #0E6FFF;
 
             }
 
-            a {
-                position: relative;
-                display: inline-block;
-                cursor: pointer;
-                outline: none;
-                border: 0;
-                vertical-align: middle;
-                text-decoration: none;
-                background: transparent;
-                padding: 0;
-                font-size: inherit;
-                font-family: inherit;
 
-                &.learn-more {
-                    width: 12rem;
-                    height: auto;
-
-                    .circle {
-                        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                        position: relative;
-                        display: block;
-                        margin: 0;
-                        width: 3rem;
-                        height: 3rem;
-                        background: #282936;
-                        border-radius: 1.625rem;
-
-                        .icon {
-                            transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                            position: absolute;
-                            top: 0;
-                            bottom: 0;
-                            margin: auto;
-                            background: #fff;
-
-                            &.arrow {
-                                transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                                left: 0.625rem;
-                                width: 1.125rem;
-                                height: 0.125rem;
-                                background: none;
-
-                                &::before {
-                                    position: absolute;
-                                    content: "";
-                                    top: -0.29rem;
-                                    right: 0.0625rem;
-                                    width: 0.625rem;
-                                    height: 0.625rem;
-                                    border-top: 0.125rem solid #fff;
-                                    border-right: 0.125rem solid #fff;
-                                    transform: rotate(45deg);
-                                }
-                            }
-                        }
-                    }
-
-                    .button-text {
-                        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        right: 0;
-                        bottom: 0;
-                        padding: 0.75rem 0;
-                        margin: 0 0 0 1.85rem;
-                        color: #282936;
-                        font-weight: 700;
-                        line-height: 1.6;
-                        text-align: center;
-                        text-transform: uppercase;
-                    }
-                }
-
-                &:hover {
-                    .circle {
-                        width: 100%;
-
-                        .icon {
-                            &.arrow {
-                                background: #fff;
-                                transform: translate(1rem, 0);
-                            }
-                        }
-                    }
-
-                    .button-text {
-                        color: #fff;
-                    }
-                }
-            }
 
         }
 
@@ -158,7 +76,7 @@ $secondary-color: #0E6FFF;
             gap: 20px;
 
             p {
-                color: $secondary-text;
+                color: $primary-text;
                 font-size: clamp(1rem, 0.7594rem + 1.203vw, 2rem);
                 font-weight: 400;
                 padding: 10px 0;
@@ -190,6 +108,7 @@ $secondary-color: #0E6FFF;
                     margin-bottom: 3rem;
 
                     span {
+                        color: $primary-text;
                         display: block;
                         font-weight: 100 !important;
                     }
@@ -206,7 +125,7 @@ $secondary-color: #0E6FFF;
         align-items: end;
 
         img {
-            width: 70%;
+            width: 60%;
             height: auto;
         }
     }
@@ -290,7 +209,7 @@ $secondary-color: #0E6FFF;
     padding: 2rem;
 
     .main {
-        background-color: $primary-color;
+        background-color: $secondary-color;
         border-radius: 1rem;
         padding: 2rem 4rem;
 
@@ -300,9 +219,10 @@ $secondary-color: #0E6FFF;
             display: flex;
             justify-content: start;
             align-items: start;
-            border-bottom: 1px solid $primary-text;
+            border-bottom: 1px solid $secondary-text;
 
             h1 {
+                color: $secondary-text;
                 font-size: clamp(1rem, 0.7594rem + 1.203vw, 2rem);
                 margin-bottom: 1rem;
                 text-transform: uppercase;
@@ -329,6 +249,7 @@ $secondary-color: #0E6FFF;
                 gap: 20px;
 
                 h1 {
+                    color: $primary-text;
                     font-size: clamp(1.5rem, 1.1391rem + 1.8045vw, 3rem);
                     font-weight: 500;
                     line-height: 1.5;
@@ -336,6 +257,8 @@ $secondary-color: #0E6FFF;
                 }
 
                 p {
+                    color: $primary-text;
+
                     font-size: clamp(0.5rem, 0.3797rem + 0.6015vw, 1rem);
                     font-weight: 500;
                     line-height: 1.5;
@@ -360,6 +283,8 @@ $secondary-color: #0E6FFF;
 
                     li {
                         h1 {
+                            color: $secondary-text;
+
                             font-size: clamp(1.5rem, 1.1391rem + 1.8045vw, 3rem);
                             font-weight: 600;
                             font-style: normal;
@@ -367,6 +292,8 @@ $secondary-color: #0E6FFF;
                         }
 
                         p {
+                            color: $primary-text;
+
                             font-size: clamp(0.8rem, 0.7519rem + 0.2406vw, 1rem);
                             font-weight: 100;
                             font-style: normal;
@@ -462,15 +389,18 @@ $secondary-color: #0E6FFF;
         gap: 20px;
 
         h3 {
+
+
             font-size: clamp(0.8rem, 0.7519rem + 0.2406vw, 1rem);
             font-weight: 200;
             font-style: normal;
             line-height: none;
-            color: $secondary-color;
+            color: $secondary-text;
             text-transform: uppercase;
         }
 
         h1 {
+            color: $primary-text;
             font-size: clamp(1.5rem, 1.1391rem + 1.8045vw, 3rem);
             font-weight: 200;
             font-style: normal;
@@ -478,103 +408,14 @@ $secondary-color: #0E6FFF;
         }
 
         p {
+            color: $primary-text;
             font-size: clamp(0.8rem, 0.7038rem + 0.4812vw, 1.2rem);
             font-weight: 400;
             font-style: normal;
             line-height: none;
         }
 
-        a {
-            position: relative;
-            display: inline-block;
-            cursor: pointer;
-            outline: none;
-            border: 0;
-            vertical-align: middle;
-            text-decoration: none;
-            background: transparent;
-            padding: 0;
-            font-size: inherit;
-            font-family: inherit;
 
-            &.learn-more {
-                width: 12rem;
-                height: auto;
-
-                .circle {
-                    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                    position: relative;
-                    display: block;
-                    margin: 0;
-                    width: 3rem;
-                    height: 3rem;
-                    background: #282936;
-                    border-radius: 1.625rem;
-
-                    .icon {
-                        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                        position: absolute;
-                        top: 0;
-                        bottom: 0;
-                        margin: auto;
-                        background: #fff;
-
-                        &.arrow {
-                            transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                            left: 0.625rem;
-                            width: 1.125rem;
-                            height: 0.125rem;
-                            background: none;
-
-                            &::before {
-                                position: absolute;
-                                content: "";
-                                top: -0.29rem;
-                                right: 0.0625rem;
-                                width: 0.625rem;
-                                height: 0.625rem;
-                                border-top: 0.125rem solid #fff;
-                                border-right: 0.125rem solid #fff;
-                                transform: rotate(45deg);
-                            }
-                        }
-                    }
-                }
-
-                .button-text {
-                    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    padding: 0.75rem 0;
-                    margin: 0 0 0 1.85rem;
-                    color: #282936;
-                    font-weight: 700;
-                    line-height: 1.6;
-                    text-align: center;
-                    text-transform: uppercase;
-                }
-            }
-
-            &:hover {
-                .circle {
-                    width: 100%;
-
-                    .icon {
-                        &.arrow {
-                            background: #fff;
-                            transform: translate(1rem, 0);
-                        }
-                    }
-                }
-
-                .button-text {
-                    color: #fff;
-                }
-            }
-        }
 
     }
 }
@@ -634,6 +475,7 @@ $secondary-color: #0E6FFF;
         text-align: center;
 
         h1 {
+            color: $secondary-text;
             font-size: clamp(1.5rem, 1.1391rem + 1.8045vw, 3rem);
             font-weight: 800;
             font-style: normal;
@@ -643,6 +485,7 @@ $secondary-color: #0E6FFF;
         }
 
         p {
+            color: $primary-text;
             font-size: clamp(0.8rem, 0.7038rem + 0.4812vw, 1.2rem);
             font-weight: 300;
             font-style: normal;
@@ -673,6 +516,7 @@ $secondary-color: #0E6FFF;
             gap: 20px;
 
             h1 {
+                color: $primary-text;
                 font-size: clamp(1.5rem, 1.1391rem + 1.8045vw, 3rem);
                 font-weight: 500;
                 font-style: normal;
@@ -680,104 +524,15 @@ $secondary-color: #0E6FFF;
             }
 
             p {
+                color: $primary-text;
                 font-size: clamp(0.8rem, 0.7038rem + 0.4812vw, 1.2rem);
                 font-weight: 300;
                 font-style: normal;
                 line-height: 1.5;
             }
 
-            a {
-            position: relative;
-            display: inline-block;
-            cursor: pointer;
-            outline: none;
-            border: 0;
-            vertical-align: middle;
-            text-decoration: none;
-            background: transparent;
-            padding: 0;
-            font-size: inherit;
-            font-family: inherit;
 
-            &.learn-more {
-                width: 12rem;
-                height: auto;
 
-                .circle {
-                    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                    position: relative;
-                    display: block;
-                    margin: 0;
-                    width: 3rem;
-                    height: 3rem;
-                    background: #282936;
-                    border-radius: 1.625rem;
-
-                    .icon {
-                        transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                        position: absolute;
-                        top: 0;
-                        bottom: 0;
-                        margin: auto;
-                        background: #fff;
-
-                        &.arrow {
-                            transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                            left: 0.625rem;
-                            width: 1.125rem;
-                            height: 0.125rem;
-                            background: none;
-
-                            &::before {
-                                position: absolute;
-                                content: "";
-                                top: -0.29rem;
-                                right: 0.0625rem;
-                                width: 0.625rem;
-                                height: 0.625rem;
-                                border-top: 0.125rem solid #fff;
-                                border-right: 0.125rem solid #fff;
-                                transform: rotate(45deg);
-                            }
-                        }
-                    }
-                }
-
-                .button-text {
-                    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    padding: 0.75rem 0;
-                    margin: 0 0 0 1.85rem;
-                    color: #282936;
-                    font-weight: 700;
-                    line-height: 1.6;
-                    text-align: center;
-                    text-transform: uppercase;
-                }
-            }
-
-            &:hover {
-                .circle {
-                    width: 100%;
-
-                    .icon {
-                        &.arrow {
-                            background: #fff;
-                            transform: translate(1rem, 0);
-                        }
-                    }
-                }
-
-                .button-text {
-                    color: #fff;
-                }
-            }
-        }
-            
         }
 
         .right {
@@ -796,8 +551,9 @@ $secondary-color: #0E6FFF;
                 align-items: start;
                 flex-direction: column;
                 gap: 10px;
-                background-color: $primary-color;
+                background-color: $secondary-color;
                 margin: 2rem 0;
+                border-radius: .5rem;
 
                 img {
                     width: 30%;
@@ -805,6 +561,7 @@ $secondary-color: #0E6FFF;
                 }
 
                 h1 {
+                    color: $secondary-text;
                     font-size: clamp(1.3rem, 1.1316rem + 0.8421vw, 2rem);
                     font-weight: 500;
                     font-style: normal;
@@ -812,6 +569,7 @@ $secondary-color: #0E6FFF;
                 }
 
                 p {
+                    color: $primary-text;
                     font-size: clamp(0.6rem, 0.5038rem + 0.4812vw, 1rem);
                     font-weight: 300;
                     font-style: normal;
@@ -931,6 +689,7 @@ $secondary-color: #0E6FFF;
         text-align: center;
 
         h1 {
+            color: $secondary-text;
             font-size: clamp(1.5rem, 1.1391rem + 1.8045vw, 3rem);
             font-weight: 800;
             font-style: normal;
@@ -940,6 +699,7 @@ $secondary-color: #0E6FFF;
         }
 
         p {
+            color: $primary-text;
             font-size: clamp(0.8rem, 0.7038rem + 0.4812vw, 1.2rem);
             font-weight: 300;
             font-style: normal;
@@ -956,6 +716,7 @@ $secondary-color: #0E6FFF;
         align-items: center;
         gap: 20px;
         // flex-wrap: wrap;
+        color: $primary-text;
 
 
         .card {
@@ -1037,7 +798,7 @@ $secondary-color: #0E6FFF;
                 width: 100%;
 
                 img {
-                    width: 50%;
+                    width: 100%;
                 }
             }
         }
@@ -1052,7 +813,7 @@ $secondary-color: #0E6FFF;
     }
 }
 
-.float{
+.float {
 
     position: fixed;
     bottom: 1%;
@@ -1060,9 +821,7 @@ $secondary-color: #0E6FFF;
     z-index: 9999999;
 
     .btn-cssbuttons {
-        --btn-color: #275efe;
         position: relative;
-    
         padding: 16px 32px;
         font-family: Roboto, sans-serif;
         font-weight: 500;
@@ -1076,7 +835,7 @@ $secondary-color: #0E6FFF;
         cursor: pointer;
         filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
         transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-    
+
         &::before {
             position: absolute;
             content: "";
@@ -1085,24 +844,24 @@ $secondary-color: #0E6FFF;
             z-index: -1;
             width: 100%;
             height: 100%;
-            background: var(--btn-color);
+            background: $secondary-text;
             border-radius: 24px;
             transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
         }
-    
+
         span {
             transition-delay: 0.05s;
-    
+
             &:first-child {
                 padding-right: 7px;
             }
-    
+
             span {
                 margin-left: 8px;
                 transition-delay: 0.1s;
             }
         }
-    
+
         ul {
             position: absolute;
             top: 50%;
@@ -1113,46 +872,46 @@ $secondary-color: #0E6FFF;
             padding: 0;
             list-style-type: none;
             transform: translateY(-50%);
-    
+
             li {
                 flex: 1;
-    
+
                 a {
                     display: inline-flex;
                     vertical-align: middle;
                     transform: translateY(55px);
                     transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
-    
+
                     &:hover {
                         opacity: 0.5;
                     }
                 }
             }
         }
-    
+
         &:hover {
             &::before {
                 transform: scale(1.2);
             }
-    
+
             ul {
                 li {
                     a {
                         transform: translateY(0);
                     }
-    
+
                     &:nth-child(1) {
                         a {
                             transition-delay: 0.15s;
                         }
                     }
-    
+
                     &:nth-child(2) {
                         a {
                             transition-delay: 0.2s;
                         }
                     }
-    
+
                     &:nth-child(3) {
                         a {
                             transition-delay: 0.25s;
@@ -1162,14 +921,14 @@ $secondary-color: #0E6FFF;
             }
         }
     }
-    
+
     .btn-cssbuttons span,
     .btn-cssbuttons span span {
         display: inline-flex;
         vertical-align: middle;
         transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
     }
-    
+
     .btn-cssbuttons:hover span,
     .btn-cssbuttons:hover span span {
         transform: translateY(-55px);
